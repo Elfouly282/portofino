@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Left — text content */}
         <div className="max-w-2xl space-y-7 text-center md:text-left">
 
-          <motion.span
+          {/* <motion.span
             className="inline-flex items-center gap-2 px-4 py-1.5 bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold rounded-full uppercase tracking-widest"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ const Navbar = () => {
             <span className="text-gray-500">·</span>
             <MapPin className="h-3 w-3" />
             Egypt
-          </motion.span>
+          </motion.span> */}
 
           <motion.h1
             className="text-5xl md:text-7xl font-black text-white leading-[1.05] tracking-tight"
