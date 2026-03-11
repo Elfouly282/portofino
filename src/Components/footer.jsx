@@ -5,12 +5,12 @@ const Footer = () => {
   return (
     <footer className="bg-[#050508] border-t border-white/[0.05] py-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <a href="#home" className="text-lg font-black tracking-tight select-none">
+        {/* <a href="#home" className="text-lg font-black tracking-tight select-none">
           <span className="bg-gradient-to-r from-cyan-400 to-violet-500 bg-clip-text text-transparent">
             AM
           </span>
           <span className="text-white">.</span>
-        </a>
+        </a> */}
 
         <p className="text-gray-600 text-sm">
           © 2026 Abdelrahman Montaser. All rights reserved.
