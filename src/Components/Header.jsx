@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Home, User, Mail, Code2, Menu, X } from "lucide-react";
 import { FaTools } from "react-icons/fa";
+import myLogo from "/Images/my-logo.svg";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -29,11 +30,8 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <a href="#home" className="text-xl font-black tracking-tight select-none">
-          <span className="bg-gradient-to-r from-cyan-400 to-violet-500 bg-clip-text text-transparent">
-            AM
-          </span>
-          <span className="text-white">.</span>
+        <a href="#home" className="select-none">
+          <img src={myLogo} alt="Logo" className="h-10 w-auto object-contain" />
         </a>
 
         <nav className="hidden md:flex items-center gap-1">

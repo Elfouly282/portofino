@@ -108,7 +108,7 @@ const Aboutme = () => {
       </section>
 
       {/* ── Education ── */}
-      <section className="py-20 px-6 bg-[#07070f]">
+      {/* <section className="py-20 px-6 bg-[#07070f]">
         <div className="max-w-4xl mx-auto">
           <motion.div {...fadeUp} className="text-center mb-4">
             <SectionLabel><GraduationCap className="h-3 w-3" /> Education</SectionLabel>
@@ -136,7 +136,7 @@ const Aboutme = () => {
             </Card>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── Projects ── */}
       <Projects />

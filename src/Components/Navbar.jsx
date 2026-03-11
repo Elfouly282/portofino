@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import dartIcon from "/Images/dart-icon.svg";
 import flutterIcon from "/Images/flutter-icon.svg";
 const cv = "/CV/Abdelrahman%20Montaser%20Flutter%20CV.pdf";
-import myPhoto from "/Images/image.png";
+import myLogo from "/Images/my-logo.svg";
 
 const techStack = [
   { icon: dartIcon, label: "Dart" },
@@ -139,7 +139,7 @@ const Navbar = () => {
           </motion.div>
         </div>
 
-        {/* Right — photo */}
+        {/* Right — logo */}
         <motion.div
           className="relative flex-shrink-0 flex justify-center items-center"
           initial={{ opacity: 0, scale: 0.9 }}
@@ -152,11 +152,10 @@ const Navbar = () => {
             animate={{ y: [0, -14, 0] }}
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
           >
-            <div className="absolute -inset-[3px] bg-gradient-to-r from-cyan-400 via-violet-500 to-purple-600 rounded-full blur-sm opacity-60" />
             <img
-              src={myPhoto}
-              alt="Abdelrahman Montaser"
-              className="relative w-60 h-60 md:w-[320px] md:h-[320px] rounded-full object-cover border-2 border-white/10 shadow-2xl"
+              src={myLogo}
+              alt="Abdelrahman Montaser Logo"
+              className="relative w-60 md:w-[320px] object-contain drop-shadow-2xl"
             />
           </motion.div>
         </motion.div>
