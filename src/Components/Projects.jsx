@@ -224,10 +224,9 @@ const Projects = () => {
                         href={project.googlePlay}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-green-500/10 hover:border-green-500/30 hover:text-green-400 transition-all duration-200 text-xs font-medium"
+                        className="inline-block transition-transform duration-200 hover:scale-105"
                       >
-                        <img src={googlePlayIcon} alt="Google Play" className="w-3 h-3" />
-                        Google Play
+                        <img src={googlePlayIcon} alt="Google Play" className="w-32 h-10" />
                       </a>
                     )}
                     {project.appStore && (
@@ -235,10 +234,9 @@ const Projects = () => {
                         href={project.appStore}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-white/10 hover:text-white transition-all duration-200 text-xs font-medium"
+                        className="inline-block transition-transform duration-200 hover:scale-105"
                       >
-                        <img src={appStoreIcon} alt="App Store" className="w-3 h-3" />
-                        App Store
+                        <img src={appStoreIcon} alt="App Store" className="w-28 h-10" />
                       </a>
                     )}
                     {project.drive && (
@@ -257,10 +255,9 @@ const Projects = () => {
                         href={project.huaweiAppStore}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-red-500/10 hover:border-red-500/30 hover:text-red-400 transition-all duration-200 text-xs font-medium"
+                        className="inline-block transition-transform duration-200 hover:scale-105"
                       >
-                        <img src={huaweiIcon} alt="Huawei Store" className="w-3 h-3" />
-                        Huawei Store
+                        <img src={huaweiIcon} alt="Huawei Store" className="w-32 h-10" />
                       </a>
                     )}
                   </div>
