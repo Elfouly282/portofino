@@ -31,6 +31,7 @@ const Projects = () => {
       description:
         "A multi-service app connecting users with vendors for browsing, ordering, and booking. Features delivery management and real-time order tracking.",
       image: responsiveImage,
+      huaweiAppStore: "https://appgallery.huawei.com/app/C117147745",
     },
 
 
@@ -87,6 +88,7 @@ const Projects = () => {
       image: yalamatch,
       googlePlay: "https://play.google.com/store/apps/details?id=app.yalamatch",
       appStore: "https://apps.apple.com/eg/app/yalamatch/id6751447545",
+      huaweiAppStore: "https://appgallery.huawei.com/app/C117202075",
        downloads: "100+",  
 
     },
@@ -245,6 +247,19 @@ const Projects = () => {
                       >
                         <SiGoogledrive className="text-xs" />
                         Drive
+                      </a>
+                    )}
+                    {project.huaweiAppStore && (
+                      <a
+                        href={project.huaweiAppStore}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-red-500/10 hover:border-red-500/30 hover:text-red-400 transition-all duration-200 text-xs font-medium"
+                      >
+                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                        Huawei Store
                       </a>
                     )}
                   </div>
