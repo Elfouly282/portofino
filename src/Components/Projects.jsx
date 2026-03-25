@@ -4,6 +4,9 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 import { SiGoogledrive } from "react-icons/si";
 import { ExternalLink, Download } from "lucide-react";
 import { motion } from "framer-motion";
+import appStoreIcon from "/Images/App Store.svg";
+import googlePlayIcon from "/Images/Google Play.svg";
+import huaweiIcon from "/Images/AppGallery.svg";
 import bmiImage from "/Images/bmi.png";
 import quizImage from "/Images/core-academy.jpg";
 import todoImage from "/Images/ons.png";
@@ -223,7 +226,7 @@ const Projects = () => {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-green-500/10 hover:border-green-500/30 hover:text-green-400 transition-all duration-200 text-xs font-medium"
                       >
-                        <FaGooglePlay className="text-xs" />
+                        <img src={googlePlayIcon} alt="Google Play" className="w-3 h-3" />
                         Google Play
                       </a>
                     )}
@@ -234,7 +237,7 @@ const Projects = () => {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-white/10 hover:text-white transition-all duration-200 text-xs font-medium"
                       >
-                        <FaApple className="text-xs" />
+                        <img src={appStoreIcon} alt="App Store" className="w-3 h-3" />
                         App Store
                       </a>
                     )}
@@ -256,9 +259,7 @@ const Projects = () => {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-3 py-2 bg-white/5 border border-white/10 text-gray-300 rounded-lg hover:bg-red-500/10 hover:border-red-500/30 hover:text-red-400 transition-all duration-200 text-xs font-medium"
                       >
-                        <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
+                        <img src={huaweiIcon} alt="Huawei Store" className="w-3 h-3" />
                         Huawei Store
                       </a>
                     )}
