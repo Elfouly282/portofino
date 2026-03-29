@@ -113,16 +113,8 @@ const Navbar = () => {
             transition={{ duration: 0.6, delay: 0.45 }}
           >
             <a
-              href={cv}
-              download
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-violet-600 text-white font-semibold rounded-xl shadow-lg shadow-violet-500/20 hover:shadow-violet-500/40 hover:scale-105 transition-all duration-200 text-sm"
-            >
-              <Download className="h-4 w-4" />
-              Download CV
-            </a>
-            <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 text-gray-300 font-semibold rounded-xl hover:bg-white/10 hover:text-white hover:border-white/20 transition-all duration-200 text-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-violet-600 text-white font-semibold rounded-xl shadow-lg shadow-violet-500/20 hover:shadow-violet-500/40 hover:scale-105 transition-all duration-200 text-sm"
             >
               Contact Me
               <ArrowRight className="h-4 w-4" />
