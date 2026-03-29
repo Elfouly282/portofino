@@ -45,6 +45,7 @@ const Projects = () => {
       description:"Islamic Brand is a modern mobile application designed to provide a seamless shopping experience for modest fashion. The app allows users to explore a wide range of high-quality Islamic clothing with elegant and contemporary designs suitable for everyday wear and special occasions.",
       image: islamic,
       googlePlay: "https://play.google.com/store/apps/details?id=com.islamic.brand",
+      huaweiAppStore: "https://appgallery.huawei.com/app/C117105149",
       // appStore: "#",
     },
     {
@@ -54,7 +55,6 @@ const Projects = () => {
       description:"Developed On Next Stay, a cleaning service app with separate roles for admin,clients, and cleaners, enabling easy booking and management of home/villa cleaning services.",
       image: todoImage,
       // googlePlay: "#",
-      drive : "https://drive.google.com/drive/folders/1v9s1bjXnOPHCSjXuj-gzyNBnPHWekEjA",
     },
 
 
