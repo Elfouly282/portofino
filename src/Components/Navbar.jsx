@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import { Download, ArrowRight, MapPin } from "lucide-react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaNodeJs } from "react-icons/fa";
 import dartIcon from "/Images/dart-icon.svg";
 import flutterIcon from "/Images/flutter-icon.svg";
 const cv = "/CV/Abdelrahman%20Montaser%20Flutter%20CV.pdf";
@@ -12,6 +12,7 @@ import myLogo from "/Images/my-logo.svg";
 const techStack = [
   { icon: dartIcon, label: "Dart" },
   { icon: flutterIcon, label: "Flutter" },
+  { icon: <FaNodeJs className="w-5 h-5 text-green-500" />, label: "Node.js" },
 ];
 
 const Navbar = () => {
@@ -100,7 +101,11 @@ const Navbar = () => {
                 key={label}
                 className="flex items-center gap-2 px-3 py-2 bg-white/[0.03] border border-white/[0.08] rounded-xl"
               >
-                <img src={icon} alt={label} className="w-5 h-5" />
+                {typeof icon === 'string' ? (
+                  <img src={icon} alt={label} className="w-5 h-5" />
+                ) : (
+                  icon
+                )}
                 <span className="text-gray-400 text-sm font-medium">{label}</span>
               </div>
             ))}
