@@ -35,6 +35,8 @@ const Projects = () => {
         "A multi-service app connecting users with vendors for browsing, ordering, and booking. Features delivery management and real-time order tracking.",
       image: responsiveImage,
       huaweiAppStore: "https://appgallery.huawei.com/app/C117147745",
+      appStore: "https://apps.apple.com/eg/app/baba-%D8%A8%D8%A7%D8%A8%D8%A7/id6756750299",
+      googlePlay: "https://play.google.com/store/apps/details?id=app.superbaba",
     },
 
 
