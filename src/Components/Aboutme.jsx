@@ -2,6 +2,7 @@ import React from "react";
 import {
   FaHtml5,
   FaJs,
+  FaNodeJs,
   FaGithub,
   FaBriefcase,
   FaExternalLinkAlt,
@@ -31,6 +32,7 @@ const skills = [
   { name: "Clean Architecture", level: 90, icon: <SiMaterialdesign className="text-violet-400 text-lg" /> },
   { name: "GitHub", level: 95, icon: <FaGithub className="text-gray-300 text-lg" /> },
   { name: "JavaScript", level: 75, icon: <FaJs className="text-yellow-400 text-lg" /> },
+  { name: "Node.js", level: 70, icon: <FaNodeJs className="text-green-500 text-lg" /> },
   { name: "HTML & CSS", level: 85, icon: <FaHtml5 className="text-orange-500 text-lg" /> },
 ];
 
