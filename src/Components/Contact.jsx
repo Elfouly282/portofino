@@ -106,7 +106,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-0.5">Location</p>
-                <p className="text-gray-300 text-sm">Tanta, Egypt</p>
+                <p className="text-gray-300 text-sm">Egypt</p>
               </div>
             </div>
 

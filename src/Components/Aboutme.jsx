@@ -117,10 +117,10 @@ const Aboutme = () => {
                   09/2022 – 06/2026
                 </span>
                 <h3 className="text-white text-xl font-bold">
-                  Faculty of Computers and Information, Tanta University
+                  Faculty of Computers and Information, Egypt University
                 </h3>
                 <p className="text-gray-400 text-sm flex items-center gap-1">
-                  <FaMapMarkerAlt className="text-red-400 text-xs" /> Tanta, Egypt
+                  <FaMapMarkerAlt className="text-red-400 text-xs" /> Egypt
                 </p>
                 <span className="inline-block mt-1 text-sm text-cyan-400 font-semibold">
                   Bachelor&rsquo;s Degree – Computer Science
@@ -169,7 +169,7 @@ const Aboutme = () => {
                     </a>
                     <span className="text-gray-600">·</span>
                     <span className="flex items-center gap-1 text-gray-500 text-xs">
-                      <FaMapMarkerAlt className="text-red-400" /> Tanta, Egypt
+                      <FaMapMarkerAlt className="text-red-400" /> Egypt
                     </span>
                     <span className="text-xs bg-white/5 text-gray-400 px-2 py-0.5 rounded-full border border-white/10">
                       On-site
@@ -211,7 +211,7 @@ const Aboutme = () => {
                     <span className="text-violet-400 font-semibold text-sm">Camp Coding</span>
                     <span className="text-gray-600">·</span>
                     <span className="flex items-center gap-1 text-gray-500 text-xs">
-                      <FaMapMarkerAlt className="text-red-400" /> Tanta, Egypt
+                      <FaMapMarkerAlt className="text-red-400" /> Egypt
                     </span>
                     <span className="text-xs bg-white/5 text-gray-400 px-2 py-0.5 rounded-full border border-white/10">
                       On-site
@@ -250,7 +250,7 @@ const Aboutme = () => {
                     <span className="text-violet-400 font-semibold text-sm">CORE Academy</span>
                     <span className="text-gray-600">·</span>
                     <span className="flex items-center gap-1 text-gray-500 text-xs">
-                      <FaMapMarkerAlt className="text-red-400" /> Tanta, Egypt
+                      <FaMapMarkerAlt className="text-red-400" /> Egypt
                     </span>
                     <span className="text-xs bg-white/5 text-gray-400 px-2 py-0.5 rounded-full border border-white/10">
                       On-site
