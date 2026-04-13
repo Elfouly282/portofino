@@ -137,7 +137,8 @@ const Aboutme = () => {
       <Projects />
 
       {/* ── Experience ── */}
-      {/* <section className="py-20 px-6 bg-[#07070f]">
+      {/* 
+      <section className="py-20 px-6 bg-[#07070f]">
         <div className="max-w-4xl mx-auto">
           <motion.div {...fadeUp} className="text-center mb-4">
             <SectionLabel><Briefcase className="h-3 w-3" /> Work</SectionLabel>
@@ -148,7 +149,6 @@ const Aboutme = () => {
             <div className="absolute left-5 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500/50 via-violet-500/50 to-transparent" />
             <div className="space-y-8 pl-14">
 
-              {/* Dokkan */}
               <div className="relative">
                 <div className="absolute -left-9 top-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-violet-600 rounded-full flex items-center justify-center shadow-lg shadow-violet-500/30">
                   <FaBriefcase className="text-white text-xs" />
@@ -157,7 +157,7 @@ const Aboutme = () => {
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-1">
                     <h3 className="text-white text-lg font-bold">Flutter Developer</h3>
                     <span className="text-xs text-cyan-400 font-semibold bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full">
-                      07/2025 – Present
+                      07/2025 - Present
                     </span>
                   </div>
                   <div className="flex flex-wrap items-center gap-3 mb-3">
@@ -197,7 +197,6 @@ const Aboutme = () => {
                 </Card>
               </div>
 
-              {/* Camp Coding */}
               <div className="relative">
                 <div className="absolute -left-9 top-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-violet-600 rounded-full flex items-center justify-center shadow-lg shadow-violet-500/30">
                   <FaBriefcase className="text-white text-xs" />
@@ -206,7 +205,7 @@ const Aboutme = () => {
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-1">
                     <h3 className="text-white text-lg font-bold">Flutter Developer</h3>
                     <span className="text-xs text-cyan-400 font-semibold bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full">
-                      01/2025 – 06/2025
+                      01/2025 - 06/2025
                     </span>
                   </div>
                   <div className="flex flex-wrap items-center gap-3 mb-3">
@@ -236,7 +235,6 @@ const Aboutme = () => {
                 </Card>
               </div>
 
-              {/* CORE Academy */}
               <div className="relative">
                 <div className="absolute -left-9 top-1 w-8 h-8 bg-gradient-to-br from-cyan-500 to-violet-600 rounded-full flex items-center justify-center shadow-lg shadow-violet-500/30">
                   <FaBriefcase className="text-white text-xs" />
@@ -245,7 +243,7 @@ const Aboutme = () => {
                   <div className="flex flex-wrap items-center justify-between gap-2 mb-1">
                     <h3 className="text-white text-lg font-bold">Instructor Flutter Developer</h3>
                     <span className="text-xs text-cyan-400 font-semibold bg-cyan-500/10 border border-cyan-500/20 px-3 py-1 rounded-full">
-                      07/2024 – 11/2024
+                      07/2024 - 11/2024
                     </span>
                   </div>
                   <div className="flex flex-wrap items-center gap-3 mb-3">
@@ -260,18 +258,18 @@ const Aboutme = () => {
                   </div>
                   <ul className="text-gray-400 text-sm space-y-2 list-none">
                     <li className="flex items-start gap-2">
-                      <span className="text-violet-400 mt-1">▸</span>
+                      <span className="text-violet-400 mt-1">?</span>
                       Trained{" "}
                       <span className="text-white font-semibold">15+ students</span>{" "}
                       in Flutter development &amp; state management
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-violet-400 mt-1">▸</span>
+                      <span className="text-violet-400 mt-1">?</span>
                       Designed structured curricula covering{" "}
                       <span className="text-white font-semibold">10+ core topics</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <span className="text-violet-400 mt-1">▸</span>
+                      <span className="text-violet-400 mt-1">?</span>
                       Led hands-on workshops that boosted engagement by{" "}
                       <span className="text-white font-semibold">20%</span>
                     </li>
@@ -282,10 +280,12 @@ const Aboutme = () => {
             </div>
           </motion.div>
         </div>
-      </section> */}
+      </section>
+      */}
 
       {/* ── Training & Activities ── */}
-      {/* <section className="py-20 px-6 bg-[#050508]">
+      {/* 
+      <section className="py-20 px-6 bg-[#050508]">
         <div className="max-w-5xl mx-auto">
           <motion.div {...fadeUp} className="text-center mb-4">
             <SectionLabel><Zap className="h-3 w-3" /> Activities</SectionLabel>
@@ -297,7 +297,7 @@ const Aboutme = () => {
           >
             <Card>
               <span className="text-xs text-violet-400 font-semibold uppercase tracking-wider">
-                07/2025 – 08/2025
+                07/2025 - 08/2025
               </span>
               <h3 className="text-white text-base font-bold mt-2 mb-1">
                 Mobile App Developer Intern
@@ -313,7 +313,7 @@ const Aboutme = () => {
 
             <Card>
               <span className="text-xs text-violet-400 font-semibold uppercase tracking-wider">
-                02/2025 – 03/2025
+                02/2025 - 03/2025
               </span>
               <h3 className="text-white text-base font-bold mt-2 mb-1">
                 Mobile App Developer Intern
@@ -330,7 +330,7 @@ const Aboutme = () => {
 
             <Card>
               <span className="text-xs text-violet-400 font-semibold uppercase tracking-wider">
-                12/2024 — Cairo, Egypt
+                12/2024 - Cairo, Egypt
               </span>
               <h3 className="text-white text-base font-bold mt-2 mb-1">Participant</h3>
               <p className="text-cyan-400 font-semibold text-sm mb-3">
@@ -343,7 +343,8 @@ const Aboutme = () => {
             </Card>
           </motion.div>
         </div>
-      </section> */}
+      </section>
+      */}
 
       {/* ── Skills ── */}
       <section id="skills" className="py-20 px-6 bg-[#07070f]">
