@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; // Experience and Training sections commented out
 import {
   FaHtml5,
   FaJs,
