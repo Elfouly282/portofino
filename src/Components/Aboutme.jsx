@@ -137,7 +137,7 @@ const Aboutme = () => {
       <Projects />
 
       {/* ── Experience ── */}
-      <section className="py-20 px-6 bg-[#07070f]">
+      {/* <section className="py-20 px-6 bg-[#07070f]">
         <div className="max-w-4xl mx-auto">
           <motion.div {...fadeUp} className="text-center mb-4">
             <SectionLabel><Briefcase className="h-3 w-3" /> Work</SectionLabel>
@@ -282,10 +282,10 @@ const Aboutme = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── Training & Activities ── */}
-      <section className="py-20 px-6 bg-[#050508]">
+      {/* <section className="py-20 px-6 bg-[#050508]">
         <div className="max-w-5xl mx-auto">
           <motion.div {...fadeUp} className="text-center mb-4">
             <SectionLabel><Zap className="h-3 w-3" /> Activities</SectionLabel>
@@ -343,7 +343,7 @@ const Aboutme = () => {
             </Card>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* ── Skills ── */}
       <section id="skills" className="py-20 px-6 bg-[#07070f]">
