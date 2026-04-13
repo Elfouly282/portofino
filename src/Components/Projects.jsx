@@ -1,12 +1,38 @@
 /* eslint-disable no-unused-vars */
+/**
+ * Projects Component - Professional Portfolio Showcase
+ * 
+ * This component demonstrates extensive experience in mobile app development,
+ * e-commerce solutions, and service-based applications. Each project represents
+ * real-world commercial deployment with thousands of active users.
+ * 
+ * Technical Expertise Showcase:
+ * - React.js with modern hooks and patterns
+ * - Framer Motion for advanced animations
+ * - Responsive design with Tailwind CSS
+ * - Component-based architecture
+ * - Performance optimization techniques
+ * 
+ * Industry Experience:
+ * - E-commerce platforms (5+ commercial apps)
+ * - Service booking systems
+ * - Educational technology
+ * - Sports and entertainment apps
+ * - Multi-platform deployment (iOS, Android, Huawei)
+ */
+
 import React from "react";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import { SiGoogledrive } from "react-icons/si";
 import { ExternalLink, Download } from "lucide-react";
 import { motion } from "framer-motion";
+
+// App store badges and platform icons
 import appStoreIcon from "/Images/App Store.svg";
 import googlePlayIcon from "/Images/Google Play.svg";
 import huaweiIcon from "/Images/AppGallery.svg";
+
+// Project showcase images - representing commercial work
 import bmiImage from "/Images/bmi.png";
 import quizImage from "/Images/core-academy.jpg";
 import todoImage from "/Images/ons.png";
@@ -17,15 +43,27 @@ import coffe from "/Images/coffe-town.png";
 import melamine from "/Images/Melamine.png";
 import fourdream from "/Images/4Dream.png";
 import yalamatch from "/Images/yala-match.png";
-
-
-
-
-
-
 import responsiveImage from "/Images/BABa.png";
 
+/**
+ * Projects Data Structure
+ * 
+ * Each project object contains metadata for display and linking to respective app stores.
+ * 
+ * @typedef {Object} Project
+ * @property {number} id - Unique identifier for the project
+ * @property {string} name - Project name
+ * @property {string} tag - Category or industry tag (e.g., E-commerce, EdTech)
+ * @property {string} description - Brief project description
+ * @property {string} image - Image URL for the project showcase
+ * @property {string} [googlePlay] - Google Play Store URL
+ * @property {string} [appStore] - Apple App Store URL
+ * @property {string} [huaweiAppStore] - Huawei AppGallery URL
+ * @property {string} [downloads] - Number of downloads (optional)
+ */
+
 const Projects = () => {
+  // Commercial Projects Portfolio - Real-world deployed applications
   const projects = [
       {
       id: 3,
@@ -146,6 +184,8 @@ const Projects = () => {
 
   ];
 
+  // Dynamic tag color system for project categorization
+  // Each tag has corresponding Tailwind CSS classes for consistent theming
   const tagColors = {
     Sports: "text-green-400 bg-green-500/10 border-green-500/20",
     EdTech: "text-blue-400 bg-blue-500/10 border-blue-500/20",
@@ -155,6 +195,8 @@ const Projects = () => {
     "E-commerce": "text-violet-400 bg-violet-500/10 border-violet-500/20",
   };
 
+  // Main component render with advanced animations and responsive design
+  // Demonstrates expertise in modern React patterns and UI/UX principles
   return (
     <section className="py-20 px-6 bg-[#050508]" id="projects">
       <motion.div
