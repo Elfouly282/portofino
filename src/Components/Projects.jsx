@@ -28,7 +28,7 @@ const Projects = () => {
       name: "Syntax Academy",
       tag: "EdTech",
       description:
-        "Learn programming through video courses with progress tracking and offline access.",
+        "Educational platform for programming courses with progress tracking, offline access, and a full desktop dashboard for students to manage courses and learning.",
       image: syntaxAcademy,
       googlePlay: "https://play.google.com/store/apps/details?id=com.syntax.academy&hl=en",
     },
