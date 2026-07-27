@@ -17,11 +17,7 @@ import coffe from "/Images/coffe-town.png";
 import melamine from "/Images/Melamine.png";
 import fourdream from "/Images/4Dream.png";
 import yalamatch from "/Images/yala-match.png";
-
-
-
-
-
+import syntaxAcademy from "/Images/syntax-academy.jpeg";
 
 import responsiveImage from "/Images/BABa.png";
 
@@ -139,6 +135,17 @@ const Projects = () => {
       image: quizImage,
       googlePlay: "https://play.google.com/store/apps/details?id=com.core.academy.student",
       appStore: "https://apps.apple.com/eg/app/core-academy-student/id6747823762",
+    },
+
+    {
+      id: 10,
+      name: "Syntax Academy",
+      tag: "EdTech",
+      description:
+        "An educational platform for learning programming and technology—HTML/CSS/JS, Flutter, Python & AI, C++/OOP, and more—with progress tracking, offline downloads, and course booking.",
+      image: syntaxAcademy,
+      googlePlay: "https://play.google.com/store/apps/details?id=com.syntax.academy&hl=en",
+      downloads: "10+",
     },
 
 
