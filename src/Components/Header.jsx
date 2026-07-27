@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Home, User, Mail, Code2, Menu, X } from "lucide-react";
 import { FaTools } from "react-icons/fa";
-import myLogo from "/Images/my-logo.svg";
+import myLogo from "/Images/elfouly-logo.svg";
 
 const navLinks = [
   { href: "#home", label: "Home" },

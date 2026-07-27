@@ -7,7 +7,7 @@ import { FaGithub, FaNodeJs } from "react-icons/fa";
 import dartIcon from "/Images/dart-icon.svg";
 import flutterIcon from "/Images/flutter-icon.svg";
 const cv = "/CV/Abdelrahman%20Montaser%20Flutter%20CV.pdf";
-import myLogo from "/Images/my-logo.svg";
+import myLogo from "/Images/elfouly-logo.svg";
 
 const techStack = [
   { icon: dartIcon, label: "Dart" },

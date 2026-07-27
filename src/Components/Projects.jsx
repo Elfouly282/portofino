@@ -23,6 +23,16 @@ import responsiveImage from "/Images/BABa.png";
 
 const Projects = () => {
   const projects = [
+    {
+      id: 10,
+      name: "Syntax Academy",
+      tag: "EdTech",
+      description:
+        "Learn programming through video courses with progress tracking and offline access.",
+      image: syntaxAcademy,
+      googlePlay: "https://play.google.com/store/apps/details?id=com.syntax.academy&hl=en",
+    },
+
       {
       id: 3,
       name: "BaBa App",
@@ -136,21 +146,6 @@ const Projects = () => {
       googlePlay: "https://play.google.com/store/apps/details?id=com.core.academy.student",
       appStore: "https://apps.apple.com/eg/app/core-academy-student/id6747823762",
     },
-
-    {
-      id: 10,
-      name: "Syntax Academy",
-      tag: "EdTech",
-      description:
-        "An educational platform for learning programming and technology—HTML/CSS/JS, Flutter, Python & AI, C++/OOP, and more—with progress tracking, offline downloads, and course booking.",
-      image: syntaxAcademy,
-      googlePlay: "https://play.google.com/store/apps/details?id=com.syntax.academy&hl=en",
-      downloads: "10+",
-    },
-
-
-
-
   ];
 
   const tagColors = {
@@ -193,14 +188,14 @@ const Projects = () => {
                 transition={{ duration: 0.5, delay: i * 0.07 }}
               >
                 {/* Image */}
-                <div className="relative overflow-hidden bg-[#07070f] aspect-video">
+                <div className="relative overflow-hidden bg-[#07070f] aspect-video flex items-center justify-center">
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d18] via-transparent to-transparent opacity-60" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d18] via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
 
                 {/* Content */}
