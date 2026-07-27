@@ -188,11 +188,11 @@ const Projects = () => {
                 transition={{ duration: 0.5, delay: i * 0.07 }}
               >
                 {/* Image */}
-                <div className="relative overflow-hidden bg-[#07070f] aspect-video flex items-center justify-center">
+                <div className="relative overflow-hidden bg-[#07070f] aspect-video">
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d18] via-transparent to-transparent opacity-60 pointer-events-none" />
